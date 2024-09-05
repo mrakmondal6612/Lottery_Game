@@ -12,6 +12,7 @@ export default function Lottery({ n = 3, winCondition }) {
   return (
     <div>
       <h1>Lottery Game</h1>
+      <h4>If 3 digits are equal, then you are winner !</h4>
       <div className="lottery">
         <Ticket ticket={lottery} />
       </div>
